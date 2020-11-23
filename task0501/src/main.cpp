@@ -59,12 +59,15 @@ int main() {
     std::cout << "\n***** Layout *****\n";
     Layout layout1;
     layout1.add_view(std::make_unique<View>(*view1));
-    layout1.add_view(std::make_unique<View>(*tw1));
+    layout1.add_view(std::make_unique<TextView>(*tw1));
     layout1.draw();
     std::cout << "Views size: " << layout1.size();
     tw1->set_capitalize(true);
     std::cout << "\n\n= Setting capitalize: true =\n";
     layout1.draw();
+
+    std::cout << "\n\nLayout size: " << layout1.size() << std::endl;
+
 
     
     
