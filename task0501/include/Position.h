@@ -1,6 +1,4 @@
-#ifndef POSITION_H
-#define POSITION_H
-
+#pragma once
 
 #include <iostream>
 
@@ -28,4 +26,3 @@ class Position {
 };
 
 
-#endif

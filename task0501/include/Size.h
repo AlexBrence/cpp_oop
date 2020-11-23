@@ -1,5 +1,4 @@
-#ifndef SIZE_H
-#define SIZE_H
+#pragma once
 
 #include <iostream>
 
@@ -31,4 +30,3 @@ class Size {
 };
 
 
-#endif

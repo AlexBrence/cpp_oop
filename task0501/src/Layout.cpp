@@ -1,18 +1,14 @@
 #include "Layout.h" 
+#include <memory>
 
 
-
-void Layout::add_view(View* view) {
-    views.emplace_back(view);
+void Layout::add_view(std::unique_ptr<View> view) {
+    views.emplace_back(std::make_unique<View>(*view));
 }
 
-View* Layout::get_view(const int& position) const {
-    for (const auto& v : views) {
-        if (v->get_position().get_x() == position && v->get_position().get_y() == position)
-            return v;
-    }
-    
-    std::cout << "No view at this position: " << position << std::endl;
+
+std::unique_ptr<View> Layout::get_view(const int& position) {
+    return std::move(views[position]);
 }
 
 

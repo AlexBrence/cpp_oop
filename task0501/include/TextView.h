@@ -1,5 +1,4 @@
-#ifndef TEXTVIEW_H
-#define TEXTVIEW_H 
+#pragma once
 
 #include <iostream>
 #include "View.h"
@@ -29,4 +28,3 @@ class TextView : public View {
 };
 
 
-#endif

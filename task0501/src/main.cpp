@@ -1,9 +1,11 @@
-#include <iostream>
 #include "View.h" 
 #include "Position.h"
 #include "Size.h"
 #include "Layout.h" 
 #include "TextView.h"
+
+#include <iostream>
+#include <memory>
 
 
 int main() {
@@ -27,7 +29,7 @@ int main() {
 
 
     std::cout << "\n***** View *****\n";
-    View* view1 = new View(position1, size1);
+    auto view1 = std::make_unique<View>(position1, size1);
     view1->draw();
     view1->set_visible(false);
     view1->draw();
@@ -47,7 +49,7 @@ int main() {
     
 
     std::cout << "\n***** TextView *****\n";
-    TextView* tw1 = new TextView(position1, size1, "This is some random text");
+    auto tw1 = std::make_unique<TextView>(position1, size1, "This is some random text");
     tw1->draw();
     tw1->set_text("Some other random text");
     tw1->set_position(25.0f, 30.0f);
@@ -56,8 +58,8 @@ int main() {
     
     std::cout << "\n***** Layout *****\n";
     Layout layout1;
-    layout1.add_view(view1);
-    layout1.add_view(tw1);
+    layout1.add_view(std::make_unique<View>(*view1));
+    layout1.add_view(std::make_unique<View>(*tw1));
     layout1.draw();
     std::cout << "Views size: " << layout1.size();
     tw1->set_capitalize(true);
@@ -66,6 +68,5 @@ int main() {
 
     
     
-
     return 0;
 }

@@ -1,6 +1,4 @@
-#ifndef VIEW_H
-#define VIEW_H
-
+#pragma once
 
 #include "Position.h"
 #include "Size.h"
@@ -34,4 +32,3 @@ class View {
 };
 
 
-#endif
