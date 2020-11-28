@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/alex/Documents/CPP_practice/task0901/bin",
+  "command": "/usr/bin/c++   -I/home/alex/Documents/CPP_practice/task0901/include    -o CMakeFiles/main.dir/src/Date.cpp.o -c /home/alex/Documents/CPP_practice/task0901/src/Date.cpp",
+  "file": "/home/alex/Documents/CPP_practice/task0901/src/Date.cpp"
+},
+{
+  "directory": "/home/alex/Documents/CPP_practice/task0901/bin",
+  "command": "/usr/bin/c++   -I/home/alex/Documents/CPP_practice/task0901/include    -o CMakeFiles/main.dir/src/main.cpp.o -c /home/alex/Documents/CPP_practice/task0901/src/main.cpp",
+  "file": "/home/alex/Documents/CPP_practice/task0901/src/main.cpp"
+}
+]
