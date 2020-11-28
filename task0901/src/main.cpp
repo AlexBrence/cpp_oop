@@ -24,6 +24,9 @@ int main() {
     std::cout << (is_same ? "true\n" : "false\n");
 
     std::cout << ++(*date2) << std::endl;
+    *date1 = (*date1)++;
+
+    std::cout << *date1 << std::endl;
 
 
     return 0;
