@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/alex/Documents/cpp_oop/task0902/Date.cpp" "/home/alex/Documents/cpp_oop/task0902/cmake-build-debug/CMakeFiles/task0902.dir/Date.cpp.o"
+  "/home/alex/Documents/cpp_oop/task0902/ReferenceCounter.cpp" "/home/alex/Documents/cpp_oop/task0902/cmake-build-debug/CMakeFiles/task0902.dir/ReferenceCounter.cpp.o"
   "/home/alex/Documents/cpp_oop/task0902/main.cpp" "/home/alex/Documents/cpp_oop/task0902/cmake-build-debug/CMakeFiles/task0902.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

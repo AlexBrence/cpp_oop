@@ -143,6 +143,60 @@ task0902/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/task0902.dir/build.make CMakeFiles/task0902.dir/build
 .PHONY : task0902/fast
 
+Date.o: Date.cpp.o
+
+.PHONY : Date.o
+
+# target to build an object file
+Date.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task0902.dir/build.make CMakeFiles/task0902.dir/Date.cpp.o
+.PHONY : Date.cpp.o
+
+Date.i: Date.cpp.i
+
+.PHONY : Date.i
+
+# target to preprocess a source file
+Date.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task0902.dir/build.make CMakeFiles/task0902.dir/Date.cpp.i
+.PHONY : Date.cpp.i
+
+Date.s: Date.cpp.s
+
+.PHONY : Date.s
+
+# target to generate assembly for a file
+Date.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task0902.dir/build.make CMakeFiles/task0902.dir/Date.cpp.s
+.PHONY : Date.cpp.s
+
+ReferenceCounter.o: ReferenceCounter.cpp.o
+
+.PHONY : ReferenceCounter.o
+
+# target to build an object file
+ReferenceCounter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task0902.dir/build.make CMakeFiles/task0902.dir/ReferenceCounter.cpp.o
+.PHONY : ReferenceCounter.cpp.o
+
+ReferenceCounter.i: ReferenceCounter.cpp.i
+
+.PHONY : ReferenceCounter.i
+
+# target to preprocess a source file
+ReferenceCounter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task0902.dir/build.make CMakeFiles/task0902.dir/ReferenceCounter.cpp.i
+.PHONY : ReferenceCounter.cpp.i
+
+ReferenceCounter.s: ReferenceCounter.cpp.s
+
+.PHONY : ReferenceCounter.s
+
+# target to generate assembly for a file
+ReferenceCounter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task0902.dir/build.make CMakeFiles/task0902.dir/ReferenceCounter.cpp.s
+.PHONY : ReferenceCounter.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -179,6 +233,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... task0902"
+	@echo "... Date.o"
+	@echo "... Date.i"
+	@echo "... Date.s"
+	@echo "... ReferenceCounter.o"
+	@echo "... ReferenceCounter.i"
+	@echo "... ReferenceCounter.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

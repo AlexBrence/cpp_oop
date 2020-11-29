@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/task0902.dir/Date.cpp.o"
+  "CMakeFiles/task0902.dir/ReferenceCounter.cpp.o"
   "CMakeFiles/task0902.dir/main.cpp.o"
   "task0902"
   "task0902.pdb"

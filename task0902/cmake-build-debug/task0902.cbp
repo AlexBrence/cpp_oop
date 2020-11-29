@@ -82,6 +82,21 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/alex/Documents/cpp_oop/task0902/Date.cpp">
+			<Option target="task0902"/>
+		</Unit>
+		<Unit filename="/home/alex/Documents/cpp_oop/task0902/Date.h">
+			<Option target="task0902"/>
+		</Unit>
+		<Unit filename="/home/alex/Documents/cpp_oop/task0902/ReferenceCounter.cpp">
+			<Option target="task0902"/>
+		</Unit>
+		<Unit filename="/home/alex/Documents/cpp_oop/task0902/ReferenceCounter.h">
+			<Option target="task0902"/>
+		</Unit>
+		<Unit filename="/home/alex/Documents/cpp_oop/task0902/SmartPointer.h">
+			<Option target="task0902"/>
+		</Unit>
 		<Unit filename="/home/alex/Documents/cpp_oop/task0902/main.cpp">
 			<Option target="task0902"/>
 		</Unit>
