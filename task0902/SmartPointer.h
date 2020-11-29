@@ -18,7 +18,7 @@ private:
 public:
     static ReferenceCounter* p_reference_counter;
 
-    explicit SmartPointer(T* object) : object(object) { *p_reference_counter++; }
+    explicit SmartPointer(T* object) : object(object) { (*p_reference_counter)++; }
     ~SmartPointer() { if (object) delete object; --(*p_reference_counter); }
 
     T& operator*() const { return *object; }
