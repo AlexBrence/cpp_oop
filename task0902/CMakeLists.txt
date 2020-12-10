@@ -1,6 +1,6 @@
-cmake_minimum_required(VERSION 3.17)
+cmake_minimum_required(VERSION 2.8.9)
 project(task0902)
-
-set(CMAKE_CXX_STANDARD 17)
-
-add_executable(task0902 main.cpp Date.cpp Date.h SmartPointer.h ReferenceCounter.cpp ReferenceCounter.h)
+include_directories(include)
+file(GLOB_RECURSE SOURCES "src/*".cpp)
+add_executable(main ${SOURCES})
+install(TARGETS main DESTINATION /usr/bin)

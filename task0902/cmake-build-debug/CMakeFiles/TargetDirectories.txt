@@ -1,3 +1,0 @@
-/home/alex/Documents/cpp_oop/task0902/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/alex/Documents/cpp_oop/task0902/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/alex/Documents/cpp_oop/task0902/cmake-build-debug/CMakeFiles/task0902.dir

@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/task0902.dir/main.cpp.o CMakeFiles/task0902.dir/Date.cpp.o CMakeFiles/task0902.dir/ReferenceCounter.cpp.o  -o task0902 

@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Date.h
+iostream
+-
+
+../include/ReferenceCounter.h
+iostream
+-
+
+../include/SmartPointer.h
+iostream
+-
+ReferenceCounter.h
+../include/ReferenceCounter.h
+
+/home/alex/Documents/cpp_oop/task0902/src/main.cpp
+SmartPointer.h
+/home/alex/Documents/cpp_oop/task0902/src/SmartPointer.h
+Date.h
+/home/alex/Documents/cpp_oop/task0902/src/Date.h
+iostream
+-
+
