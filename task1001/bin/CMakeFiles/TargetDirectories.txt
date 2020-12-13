@@ -1,0 +1,7 @@
+/home/alex/Documents/cpp_oop/task1001/bin/CMakeFiles/install/strip.dir
+/home/alex/Documents/cpp_oop/task1001/bin/CMakeFiles/install/local.dir
+/home/alex/Documents/cpp_oop/task1001/bin/CMakeFiles/install.dir
+/home/alex/Documents/cpp_oop/task1001/bin/CMakeFiles/list_install_components.dir
+/home/alex/Documents/cpp_oop/task1001/bin/CMakeFiles/rebuild_cache.dir
+/home/alex/Documents/cpp_oop/task1001/bin/CMakeFiles/edit_cache.dir
+/home/alex/Documents/cpp_oop/task1001/bin/CMakeFiles/main.dir

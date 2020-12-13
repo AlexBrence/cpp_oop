@@ -1,5 +1,5 @@
-#include "SmartPointer.h"
-#include "Date.h"
+#include "../include/SmartPointer.h"
+#include "../include/Date.h"
 
 #include <iostream>
 

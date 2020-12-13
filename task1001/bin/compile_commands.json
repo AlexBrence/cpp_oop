@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/alex/Documents/cpp_oop/task1001/bin",
+  "command": "/usr/bin/c++   -I/home/alex/Documents/cpp_oop/task1001/include    -o CMakeFiles/main.dir/src/main.cpp.o -c /home/alex/Documents/cpp_oop/task1001/src/main.cpp",
+  "file": "/home/alex/Documents/cpp_oop/task1001/src/main.cpp"
+}
+]
