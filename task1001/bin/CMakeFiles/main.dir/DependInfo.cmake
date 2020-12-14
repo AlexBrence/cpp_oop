@@ -6,6 +6,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/alex/Documents/cpp_oop/task1001/src/Athlete.cpp" "/home/alex/Documents/cpp_oop/task1001/bin/CMakeFiles/main.dir/src/Athlete.cpp.o"
   "/home/alex/Documents/cpp_oop/task1001/src/Date.cpp" "/home/alex/Documents/cpp_oop/task1001/bin/CMakeFiles/main.dir/src/Date.cpp.o"
+  "/home/alex/Documents/cpp_oop/task1001/src/FilenameException.cpp" "/home/alex/Documents/cpp_oop/task1001/bin/CMakeFiles/main.dir/src/FilenameException.cpp.o"
+  "/home/alex/Documents/cpp_oop/task1001/src/InvalidAthleteID.cpp" "/home/alex/Documents/cpp_oop/task1001/bin/CMakeFiles/main.dir/src/InvalidAthleteID.cpp.o"
   "/home/alex/Documents/cpp_oop/task1001/src/UnparseableDateException.cpp" "/home/alex/Documents/cpp_oop/task1001/bin/CMakeFiles/main.dir/src/UnparseableDateException.cpp.o"
   "/home/alex/Documents/cpp_oop/task1001/src/main.cpp" "/home/alex/Documents/cpp_oop/task1001/bin/CMakeFiles/main.dir/src/main.cpp.o"
   )

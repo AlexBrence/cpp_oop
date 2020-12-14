@@ -2,13 +2,12 @@
 
 #include <iostream>
 
-
-class UnparseableDateException : public std::exception {
+class InvalidAthleteID : public std::exception {
     private:
         std::string message;
 
     public:
-        explicit UnparseableDateException(const std::string& date); 
+        explicit InvalidAthleteID(const std::string& id);
         const char* what() const noexcept override;
 };
 

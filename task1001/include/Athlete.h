@@ -24,6 +24,7 @@ class Athlete {
         int get_age(const Date& current_date) const;
 
         static std::vector<Athlete> load_from_file (const std::string& filename);
+        static void sort_athletes(std::vector<Athlete>& athletes, bool(*c)(const Athlete&, const Athlete&));
 };
 
 

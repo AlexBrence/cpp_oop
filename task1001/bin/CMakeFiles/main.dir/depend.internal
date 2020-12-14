@@ -4,16 +4,26 @@
 CMakeFiles/main.dir/src/Athlete.cpp.o
  ../include/Athlete.h
  ../include/Date.h
+ ../include/FilenameException.h
+ ../include/InvalidAthleteID.h
  /home/alex/Documents/cpp_oop/task1001/src/Athlete.cpp
 CMakeFiles/main.dir/src/Date.cpp.o
  ../include/Date.h
  ../include/UnparseableDateException.h
  /home/alex/Documents/cpp_oop/task1001/src/Date.cpp
+CMakeFiles/main.dir/src/FilenameException.cpp.o
+ ../include/FilenameException.h
+ /home/alex/Documents/cpp_oop/task1001/src/FilenameException.cpp
+CMakeFiles/main.dir/src/InvalidAthleteID.cpp.o
+ ../include/InvalidAthleteID.h
+ /home/alex/Documents/cpp_oop/task1001/src/InvalidAthleteID.cpp
 CMakeFiles/main.dir/src/UnparseableDateException.cpp.o
  ../include/UnparseableDateException.h
  /home/alex/Documents/cpp_oop/task1001/src/UnparseableDateException.cpp
 CMakeFiles/main.dir/src/main.cpp.o
  ../include/Athlete.h
  ../include/Date.h
+ ../include/FilenameException.h
+ ../include/InvalidAthleteID.h
  ../include/UnparseableDateException.h
  /home/alex/Documents/cpp_oop/task1001/src/main.cpp

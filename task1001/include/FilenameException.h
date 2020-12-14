@@ -2,13 +2,12 @@
 
 #include <iostream>
 
-
-class UnparseableDateException : public std::exception {
+class FilenameException : public std::exception {
     private:
         std::string message;
 
     public:
-        explicit UnparseableDateException(const std::string& date); 
+        explicit FilenameException(const std::string& filename);
         const char* what() const noexcept override;
 };
 

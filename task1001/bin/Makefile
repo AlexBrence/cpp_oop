@@ -223,6 +223,60 @@ src/Date.cpp.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Date.cpp.s
 .PHONY : src/Date.cpp.s
 
+src/FilenameException.o: src/FilenameException.cpp.o
+
+.PHONY : src/FilenameException.o
+
+# target to build an object file
+src/FilenameException.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/FilenameException.cpp.o
+.PHONY : src/FilenameException.cpp.o
+
+src/FilenameException.i: src/FilenameException.cpp.i
+
+.PHONY : src/FilenameException.i
+
+# target to preprocess a source file
+src/FilenameException.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/FilenameException.cpp.i
+.PHONY : src/FilenameException.cpp.i
+
+src/FilenameException.s: src/FilenameException.cpp.s
+
+.PHONY : src/FilenameException.s
+
+# target to generate assembly for a file
+src/FilenameException.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/FilenameException.cpp.s
+.PHONY : src/FilenameException.cpp.s
+
+src/InvalidAthleteID.o: src/InvalidAthleteID.cpp.o
+
+.PHONY : src/InvalidAthleteID.o
+
+# target to build an object file
+src/InvalidAthleteID.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/InvalidAthleteID.cpp.o
+.PHONY : src/InvalidAthleteID.cpp.o
+
+src/InvalidAthleteID.i: src/InvalidAthleteID.cpp.i
+
+.PHONY : src/InvalidAthleteID.i
+
+# target to preprocess a source file
+src/InvalidAthleteID.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/InvalidAthleteID.cpp.i
+.PHONY : src/InvalidAthleteID.cpp.i
+
+src/InvalidAthleteID.s: src/InvalidAthleteID.cpp.s
+
+.PHONY : src/InvalidAthleteID.s
+
+# target to generate assembly for a file
+src/InvalidAthleteID.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/InvalidAthleteID.cpp.s
+.PHONY : src/InvalidAthleteID.cpp.s
+
 src/UnparseableDateException.o: src/UnparseableDateException.cpp.o
 
 .PHONY : src/UnparseableDateException.o
@@ -296,6 +350,12 @@ help:
 	@echo "... src/Date.o"
 	@echo "... src/Date.i"
 	@echo "... src/Date.s"
+	@echo "... src/FilenameException.o"
+	@echo "... src/FilenameException.i"
+	@echo "... src/FilenameException.s"
+	@echo "... src/InvalidAthleteID.o"
+	@echo "... src/InvalidAthleteID.i"
+	@echo "... src/InvalidAthleteID.s"
 	@echo "... src/UnparseableDateException.o"
 	@echo "... src/UnparseableDateException.i"
 	@echo "... src/UnparseableDateException.s"

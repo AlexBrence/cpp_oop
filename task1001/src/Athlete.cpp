@@ -1,7 +1,10 @@
 #include "Athlete.h"
+#include "FilenameException.h"
+#include "InvalidAthleteID.h"
 
-#include <sstream>
+#include <algorithm>
 #include <fstream>
+#include <sstream>
 
 
 Athlete::Athlete(int id, std::string f_name, std::string l_name, Date b_date, std::string country) : 
@@ -47,19 +50,30 @@ std::vector<Athlete> Athlete::load_from_file(const std::string& filename) {
 
     if (my_file.is_open()) {
        while (getline(my_file, line)) {
-           std::istringstream iss;
+           std::istringstream iss(line);
 
            getline(iss, _id, ',');
            getline(iss, _first_name, ',');
            getline(iss, _last_name, ',');
            getline(iss, _birth_date, ',');
            getline(iss, _country, '\n'); 
+
+           if (_id.length() != 8)
+                throw InvalidAthleteID(_id);
+
+           int id_to_int = std::stoi(_id);
+           athletes.emplace_back(Athlete(id_to_int, _first_name, _last_name, Date::get_date_from_string(_birth_date), _country));
         } 
 
-       int id_to_int = std::stoi(_id);
-       athletes.emplace_back(Athlete(id_to_int, _first_name, _last_name, Date::get_date_from_string(_birth_date), _country));
-    }
     my_file.close();
+    } else {
+        throw FilenameException(filename);
+    }
 
     return athletes;
+}
+
+
+void Athlete::sort_athletes(std::vector<Athlete>& athletes, bool(*c)(const Athlete&, const Athlete&)) {
+    std::sort(athletes.begin(), athletes.end(), *c); 
 }

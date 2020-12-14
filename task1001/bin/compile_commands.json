@@ -11,6 +11,16 @@
 },
 {
   "directory": "/home/alex/Documents/cpp_oop/task1001/bin",
+  "command": "/usr/bin/c++   -I/home/alex/Documents/cpp_oop/task1001/include    -o CMakeFiles/main.dir/src/FilenameException.cpp.o -c /home/alex/Documents/cpp_oop/task1001/src/FilenameException.cpp",
+  "file": "/home/alex/Documents/cpp_oop/task1001/src/FilenameException.cpp"
+},
+{
+  "directory": "/home/alex/Documents/cpp_oop/task1001/bin",
+  "command": "/usr/bin/c++   -I/home/alex/Documents/cpp_oop/task1001/include    -o CMakeFiles/main.dir/src/InvalidAthleteID.cpp.o -c /home/alex/Documents/cpp_oop/task1001/src/InvalidAthleteID.cpp",
+  "file": "/home/alex/Documents/cpp_oop/task1001/src/InvalidAthleteID.cpp"
+},
+{
+  "directory": "/home/alex/Documents/cpp_oop/task1001/bin",
   "command": "/usr/bin/c++   -I/home/alex/Documents/cpp_oop/task1001/include    -o CMakeFiles/main.dir/src/UnparseableDateException.cpp.o -c /home/alex/Documents/cpp_oop/task1001/src/UnparseableDateException.cpp",
   "file": "/home/alex/Documents/cpp_oop/task1001/src/UnparseableDateException.cpp"
 },

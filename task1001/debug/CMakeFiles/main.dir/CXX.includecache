@@ -11,6 +11,8 @@ Date.h
 ../include/Date.h
 iostream
 -
+vector
+-
 
 ../include/Date.h
 iostream
@@ -25,6 +27,8 @@ Athlete.h
 /home/alex/Documents/cpp_oop/task1001/src/Athlete.h
 sstream
 -
+fstream
+-
 
 /home/alex/Documents/cpp_oop/task1001/src/main.cpp
 Athlete.h
@@ -34,5 +38,7 @@ Date.h
 UnparseableDateException.h
 /home/alex/Documents/cpp_oop/task1001/src/UnparseableDateException.h
 iostream
+-
+vector
 -
 

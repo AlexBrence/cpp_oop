@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/main.dir/src/Athlete.cpp.o"
   "CMakeFiles/main.dir/src/Date.cpp.o"
+  "CMakeFiles/main.dir/src/FilenameException.cpp.o"
+  "CMakeFiles/main.dir/src/InvalidAthleteID.cpp.o"
   "CMakeFiles/main.dir/src/UnparseableDateException.cpp.o"
   "CMakeFiles/main.dir/src/main.cpp.o"
   "main"
