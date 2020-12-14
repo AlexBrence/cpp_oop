@@ -169,6 +169,33 @@ main/fast:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+src/Athlete.o: src/Athlete.cpp.o
+
+.PHONY : src/Athlete.o
+
+# target to build an object file
+src/Athlete.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Athlete.cpp.o
+.PHONY : src/Athlete.cpp.o
+
+src/Athlete.i: src/Athlete.cpp.i
+
+.PHONY : src/Athlete.i
+
+# target to preprocess a source file
+src/Athlete.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Athlete.cpp.i
+.PHONY : src/Athlete.cpp.i
+
+src/Athlete.s: src/Athlete.cpp.s
+
+.PHONY : src/Athlete.s
+
+# target to generate assembly for a file
+src/Athlete.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Athlete.cpp.s
+.PHONY : src/Athlete.cpp.s
+
 src/Date.o: src/Date.cpp.o
 
 .PHONY : src/Date.o
@@ -263,6 +290,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... main"
+	@echo "... src/Athlete.o"
+	@echo "... src/Athlete.i"
+	@echo "... src/Athlete.s"
 	@echo "... src/Date.o"
 	@echo "... src/Date.i"
 	@echo "... src/Date.s"

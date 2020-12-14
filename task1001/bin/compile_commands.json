@@ -1,6 +1,11 @@
 [
 {
   "directory": "/home/alex/Documents/cpp_oop/task1001/bin",
+  "command": "/usr/bin/c++   -I/home/alex/Documents/cpp_oop/task1001/include    -o CMakeFiles/main.dir/src/Athlete.cpp.o -c /home/alex/Documents/cpp_oop/task1001/src/Athlete.cpp",
+  "file": "/home/alex/Documents/cpp_oop/task1001/src/Athlete.cpp"
+},
+{
+  "directory": "/home/alex/Documents/cpp_oop/task1001/bin",
   "command": "/usr/bin/c++   -I/home/alex/Documents/cpp_oop/task1001/include    -o CMakeFiles/main.dir/src/Date.cpp.o -c /home/alex/Documents/cpp_oop/task1001/src/Date.cpp",
   "file": "/home/alex/Documents/cpp_oop/task1001/src/Date.cpp"
 },

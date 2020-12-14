@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+../include/Athlete.h
+Date.h
+../include/Date.h
+iostream
+-
+
 ../include/Date.h
 iostream
 -
@@ -14,19 +20,15 @@ iostream
 iostream
 -
 
-/home/alex/Documents/cpp_oop/task1001/src/Date.cpp
-Date.h
-/home/alex/Documents/cpp_oop/task1001/src/Date.h
-UnparseableDateException.h
-/home/alex/Documents/cpp_oop/task1001/src/UnparseableDateException.h
+/home/alex/Documents/cpp_oop/task1001/src/Athlete.cpp
+Athlete.h
+/home/alex/Documents/cpp_oop/task1001/src/Athlete.h
 sstream
 -
 
-/home/alex/Documents/cpp_oop/task1001/src/UnparseableDateException.cpp
-UnparseableDateException.h
-/home/alex/Documents/cpp_oop/task1001/src/UnparseableDateException.h
-
 /home/alex/Documents/cpp_oop/task1001/src/main.cpp
+Athlete.h
+/home/alex/Documents/cpp_oop/task1001/src/Athlete.h
 Date.h
 /home/alex/Documents/cpp_oop/task1001/src/Date.h
 UnparseableDateException.h

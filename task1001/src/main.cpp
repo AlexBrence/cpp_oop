@@ -1,18 +1,19 @@
+#include "Athlete.h"
 #include "Date.h"
 #include "UnparseableDateException.h"
 
-
 #include <iostream>
+#include <vector>
 
 
 int main() {
 
     try {
-
-        Date date1 = Date::get_date_from_string("22.4.2020");
-        Date date2 = Date::get_date_from_string("22.1.2020");
-        std::cout << date1.to_string() << std::endl;
-        std::cout << date2.to_string() << std::endl;
+        // Reading from file not working, debug it
+        std::vector<Athlete> athletes = Athlete::load_from_file("../athletes.csv");
+        for (const auto& a : athletes) 
+            std::cout << a.to_string() << std::endl << std::endl;
+        
 
     } catch (UnparseableDateException& e) {
         std::cout << e.what() << std::endl;

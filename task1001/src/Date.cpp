@@ -79,6 +79,8 @@ Date Date::get_date_from_string(const std::string& date) {
     if (date_arr[0] < 1 || date_arr[0] > 31 || date_arr[1] < 1 || date_arr[1] > 12)
         throw UnparseableDateException(date);
 
+    if (date_arr[2] < 1900 || date_arr[2] > 2021)
+        throw UnparseableDateException(date);
 
     return Date(date_arr[0], date_arr[1], date_arr[2]);
 }
