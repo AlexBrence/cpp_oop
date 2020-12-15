@@ -43,6 +43,11 @@ int Athlete::get_age(const Date& current_date) const {
 }
 
 
+int Athlete::get_id() const {
+    return id;
+}
+
+
 std::vector<Athlete> Athlete::load_from_file(const std::string& filename) {
     std::vector<Athlete> athletes;
     std::ifstream my_file(filename);
@@ -76,4 +81,27 @@ std::vector<Athlete> Athlete::load_from_file(const std::string& filename) {
 
 void Athlete::sort_athletes(std::vector<Athlete>& athletes, bool(*c)(const Athlete&, const Athlete&)) {
     std::sort(athletes.begin(), athletes.end(), *c); 
+}
+
+
+
+void Athlete::save_to_file(const std::vector<Athlete>& athletes, const std::string& filename) {
+    std::vector<Athlete> tmp = athletes;
+
+    std::sort(tmp.begin(), tmp.end(), 
+            [&](Athlete& athlete1, Athlete& athlete2) {
+                return athlete1.get_id() < athlete2.get_id();
+            });
+
+
+    std::ofstream my_file(filename);
+    if (my_file.is_open()) {
+        my_file << "=== ATHLETES SORTED BY ID ===\n\n";
+
+        for (const auto& athlete : tmp)
+            my_file << athlete.to_string() << std::endl << std::endl;
+    } else {
+        throw FilenameException(filename);
+    }
+    my_file.close();
 }

@@ -22,9 +22,11 @@ class Athlete {
 
         std::string to_string() const;
         int get_age(const Date& current_date) const;
+        int get_id() const;
 
         static std::vector<Athlete> load_from_file (const std::string& filename);
         static void sort_athletes(std::vector<Athlete>& athletes, bool(*c)(const Athlete&, const Athlete&));
+        static void save_to_file(const std::vector<Athlete>& athletes, const std::string& filename);
 };
 
 
