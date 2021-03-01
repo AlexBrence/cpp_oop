@@ -1,5 +1,0 @@
-bin/*
-debug/*
-compile_commands.json
-.vimspector.json
-.clangd/*
